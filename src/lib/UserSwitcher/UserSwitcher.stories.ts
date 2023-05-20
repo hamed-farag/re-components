@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Button } from './Button';
+import UserSwitcher from './UserSwitcher';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta = {
-  title: 'Example/Button',
-  component: Button,
+  title: 'Components/User Switcher',
+  component: UserSwitcher,
   tags: ['autodocs'],
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof UserSwitcher>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
